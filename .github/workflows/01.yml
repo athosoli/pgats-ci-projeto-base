@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Instalando yarn
     run: npm i -g yarn
-    - name: Instalanco dependencias
+    - name: Instalanco dependencia
     run: yarn
     - name: Instalanco playwright
     run: yarn playwright install
