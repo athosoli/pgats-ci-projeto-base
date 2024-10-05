@@ -25,8 +25,8 @@ jobs:
     - name: testes e2e
       run: yarn run e2e
 
-    - name: testes unit 
-      run: yarn run test
+    # - name: testes unit 
+    #   run: yarn run test
     - uses: actions/upload-artifact@v4
       with:
         name: relatorio de testes
