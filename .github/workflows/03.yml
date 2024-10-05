@@ -12,6 +12,7 @@ jobs:
   e2e-tests:
   #descricao maquin
     runs-on: ['ubuntu-latest']
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     #passp a passo
     steps:  
     - uses: actions/checkout@v4
