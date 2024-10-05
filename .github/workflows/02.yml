@@ -3,7 +3,7 @@ name: 'execucao agendada'
 #trigger gatilho de execucao
 on:
   schedule:
-    - cron: "22 19 * * *"
+    - cron: "25 19 * * *"
 
 
 jobs:
