@@ -20,6 +20,8 @@ jobs:
       run: yarn playwright install
     - name: testes e2e
       run: yarn run e2e
+    - name: testes unit 
+      run: yarn run test
 
 
 
